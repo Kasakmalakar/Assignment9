@@ -1,17 +1,8 @@
-<<<<<<< HEAD
-/*6) Write a java program to find all possible palindrom of given String.
-	Sample Input: “aaabbbacccababacccaabb” */
-public class st6 {
-    public static void main(String[] args) {
-        
-=======
-/*7. Write a Java program to concatenate a given string to the end of another string */
-
+/* Write a Java program to concatenate Two strings */
 import java.util.Arrays;
-
-public class st6 {
+public class st1 {
     public static void main(String[] args) {
-      String s1="hello";
+     String s1="hello";
      String s2="world";
      char arr1[] = s1.toCharArray();
      char arr2[] = s2.toCharArray();
@@ -26,7 +17,10 @@ public class st6 {
         result[i+len1]=arr2[i];
      }
      String st=Arrays.toString(result);
-     System.out.println(st);  
->>>>>>> 2924c7eacb406b259dcd053a0ae1c5d4c744d73e
+     System.out.println(st);
+    // for(int i=0;i<(len1+len2);i++){
+    //     System.out.print(result[i]);
+    // }
     }
 }
+ 
